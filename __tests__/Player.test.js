@@ -39,7 +39,7 @@ test('get player health value', () => {
 	expect(player.getHealth()).toEqual(expect.stringContaining(player.health.toString()));
 });
 
-test('check to see if the playe is alive', () => {
+test('check to see if the player is alive', () => {
 	const player = new Player('Dave');
 
 	expect(player.isAlive()).toBeTruthy();
